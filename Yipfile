@@ -25,6 +25,8 @@ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
 
+defines { "kiss_fft_scalar=double" }
+
 public_headers
 {
 	tools/kiss_fftnd.h
@@ -41,4 +43,9 @@ sources
 	tools/kiss_fftr.c
 	_kiss_fft_guts.h
 	kiss_fft.c
+}
+
+app_sources
+{
+	test2/test.cpp
 }
